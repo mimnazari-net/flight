@@ -1,0 +1,57 @@
+.Counter_container {
+  width: 99%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Counter_left {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.Counter_left p {
+  font-weight: 600;
+  color: black;
+}
+.Counter_left span {
+  font-weight: 300;
+  font-size: 14px;
+  color: rgb(70, 69, 69);
+  margin-left: 10px;
+}
+.Counter_right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Counter_right button {
+  background-color: #009688;
+  width: 35px;
+  height: 35px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+@media screen and (max-device-width: 375px) {
+  .Counter_left p {
+    font-size: 12px;
+  }
+  .Counter_left span {
+    margin-left: 5px;
+    font-size: 10px;
+  }
+  .Counter_right button {
+    width: 25px;
+    height: 25px;
+  }
+  .Counter_count{
+    font-size: 12px;
+  }
+}

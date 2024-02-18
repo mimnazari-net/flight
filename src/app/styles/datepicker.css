@@ -1,0 +1,92 @@
+.rmdp-wrapper {
+  /* height: 330px; */
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ant-picker-range {
+  /* background-color: blue; */
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 8px;
+  margin: 0;
+  padding: 0;
+}
+
+.ant-picker-range:hover {
+  border-color: rgb(192, 192, 192);
+}
+
+.ant-picker-input {
+  /* background-color: red; */
+  height: 45px;
+}
+
+.ant-picker-input:nth-child(3) {
+  /* background-color: aqua; */
+  padding-inline: 10px;
+  /* width: 300px; */
+  margin-right: -5px;
+  border: 1px solid transparent;
+  border-right: none;
+}
+
+.ant-picker-input:nth-child(3):hover {
+  border-color: black;
+}
+
+.ant-picker-input:nth-child(1) {
+  /* background-color: green; */
+  /* width: 500px; */
+  padding-inline: 10px;
+  border: 1px solid transparent;
+  border-right: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.ant-picker-input:nth-child(1):hover {
+  border-color: black;
+}
+
+.ant-picker-range-separator {
+  /* visibility: hidden; */
+  content: url(../../../public/images/calendar.svg);
+  font-size: 10px;
+  height: 105%;
+  /* background-color: red; */
+  /* border: 1px solid rgb(192, 192, 192); */
+  border-right: 1px solid rgb(192, 192, 192);
+  border-top: 1px solid rgb(192, 192, 192);
+  border-bottom: 1px solid rgb(192, 192, 192);
+}
+
+.ant-picker-input:nth-child(1):hover ~ .ant-picker-range-separator {
+  border-color: black;
+  /* background-color: aqua; */
+}
+
+.ant-picker-suffix {
+  content: url(../../../public/images/calendar.svg);
+  height: 105%;
+  /* margin-right: 10px; */
+  /* background-color: red; */
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  border-right: 1px solid rgb(192, 192, 192);
+  border-top: 1px solid rgb(192, 192, 192);
+  border-bottom: 1px solid rgb(192, 192, 192);
+  border-left: none;
+}
+
+.ant-picker-input:nth-child(3):hover ~ .ant-picker-suffix {
+  border-color: black;
+}
+
+.ant-picker-active-bar {
+  visibility: hidden;
+}
+
+.ant-picker-suffix {
+}
